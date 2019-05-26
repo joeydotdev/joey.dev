@@ -3,7 +3,7 @@ html, body {
     height: 100%;
 }
 
-body, footer {
+body, footer, .hero-body {
     background-color: rgb(10, 25, 47) !important;
 }
 
@@ -200,6 +200,12 @@ p {
 .fa-heart {
     padding-top: 0.5rem;
 }
+
+.dummy-keyboard {
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
