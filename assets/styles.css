@@ -209,3 +209,9 @@ p {
 ::-webkit-scrollbar {
     display: none;
 }
+
+@media screen and (max-width: 768px) {
+    .resume {
+      padding-bottom: 0.5rem;
+    }
+}
