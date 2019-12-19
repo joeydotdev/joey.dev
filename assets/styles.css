@@ -134,11 +134,10 @@ p {
 }
 
 .terminal-window {
-    background-color: black;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     height: 254px;
-    padding: 1rem;
+    padding: .5rem 0rem 0rem .5rem;
     display: flex;
     flex-direction: column;
 }
