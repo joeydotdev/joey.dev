@@ -2,8 +2,7 @@ const BLACKLISTED_KEY_CODES = [38];
 const COMMANDS = {
   help:
     'Supported commands: <span class="code">about</span>, <span class="code">experience</span>, <span class="code">education</span>, <span class="code">skills</span>, <span class="code">corgi</span>',
-  about:
-    "Hiya 👋 <br>I'm a Software Engineer originally from Orlando, FL. I'm a software engineer that loves corgis.",
+  about: "Hiya 👋 <br>I'm a Software Engineer that loves corgis.",
   skills:
     '<span class="code">Languages:</span> JavaScript, TypeScript, PHP, Java, Python, C, HTML, CSS',
   education:
