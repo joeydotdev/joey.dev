@@ -1,81 +1,110 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Joey Colon</title>
-    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-    <link rel="stylesheet" href="./assets/styles.css?v1.0.2">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-</head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Anonymous+Pro"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./assets/styles.css?v1.0.2" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <section class="hero is-fullheight">
-        <div class="hero-body">
-            <div class="container">
-                <div class="columns">
-                    <div class="column is-3 is-flex">
-                        <div class="column-child sidebar shadow">
-                            <div class="sidebar-header has-text-centered">
-                                <img src="./assets/profile.png" class="sidebar-image">
-                                <h2 class="header-name">Joey Colon</h2>
-                                <h5>Software Engineer</h5>
-                                <div class="social-icons">
-                                    <a href="https://www.linkedin.com/in/joey-colon/"><i
-                                            class="fab fa-linkedin icon"></i></a>
-                                    <a href="https://medium.com/@joey_colon"><i class="fab fa-medium-m icon"></i></a>
-                                    <a href="https://twitter.com/_odus"><i class="fab fa-twitter icon"></i></a>
-                                    <a href="https://discordapp.com/users/223169696055296011"><i class="fab fa-discord icon"></i></a>
-                                    <a href="https://github.com/joey-colon"><i class="fab fa-github icon"></i></a>
-                                    <a href="mailto: contact@joey.dev"><i class="fas fa-inbox icon"></i></a>
-                                </div>
-                                <div class="resume">
-                                    <a href="./joey_colon_resume.pdf" class="sidebar-link">
-                                        Resume
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column is-flex">
-                        <div class="column-child terminal shadow">
-                            <div class="terminal-bar dark-mode">
-                                <div class="icon-btn close"></div>
-                                <div class="icon-btn min"></div>
-                                <div class="icon-btn max"></div>
-                                <div class="terminal-bar-text is-hidden-mobile dark-mode-text">guest@joey.dev: ~</div>
-                            </div>
-                            <div class="terminal-window primary-bg"
-                                onclick="document.getElementById('dummyKeyboard').focus();">
-                                <div class="terminal-output" id="terminalOutput">
-                                    <div class="terminal-line">
-                                        <span class="help-msg">Welcome to joey.dev — Type <span class="code">help</span>
-                                            for a list of supported commands.</span>
-                                    </div>
-                                </div>
-                                <div class="terminal-line">
-                                    <span class="success">➜</span> <span class="directory">~</span> <span
-                                        class="user-input" id="userInput"></span>
-                                    <input type="text" id="dummyKeyboard" class="dummy-keyboard">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-3 is-flex">
+              <div class="column-child sidebar shadow">
+                <div class="sidebar-header has-text-centered">
+                  <img src="./assets/profile.png" class="sidebar-image" />
+                  <h2 class="header-name">Joey Colon</h2>
+                  <h5>Software Engineer</h5>
+                  <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/joey-colon/"
+                      ><i class="fab fa-linkedin icon"></i
+                    ></a>
+                    <a href="https://medium.com/@joey_colon"
+                      ><i class="fab fa-medium-m icon"></i
+                    ></a>
+                    <a href="https://twitter.com/joeydotdev"
+                      ><i class="fab fa-twitter icon"></i
+                    ></a>
+                    <a href="https://discordapp.com/users/223169696055296011"
+                      ><i class="fab fa-discord icon"></i
+                    ></a>
+                    <a href="https://github.com/joey-colon"
+                      ><i class="fab fa-github icon"></i
+                    ></a>
+                    <a href="mailto: contact@joey.dev"
+                      ><i class="fas fa-inbox icon"></i
+                    ></a>
+                  </div>
+                  <div class="resume">
+                    <a href="./joey_colon_resume.pdf" class="sidebar-link">
+                      Resume
+                    </a>
+                  </div>
                 </div>
+              </div>
             </div>
+            <div class="column is-flex">
+              <div class="column-child terminal shadow">
+                <div class="terminal-bar dark-mode">
+                  <div class="icon-btn close"></div>
+                  <div class="icon-btn min"></div>
+                  <div class="icon-btn max"></div>
+                  <div
+                    class="terminal-bar-text is-hidden-mobile dark-mode-text"
+                  >
+                    guest@joey.dev: ~
+                  </div>
+                </div>
+                <div
+                  class="terminal-window primary-bg"
+                  onclick="document.getElementById('dummyKeyboard').focus();"
+                >
+                  <div class="terminal-output" id="terminalOutput">
+                    <div class="terminal-line">
+                      <span class="help-msg"
+                        >Welcome to joey.dev — Type
+                        <span class="code">help</span> for a list of supported
+                        commands.</span
+                      >
+                    </div>
+                  </div>
+                  <div class="terminal-line">
+                    <span class="success">➜</span>
+                    <span class="directory">~</span>
+                    <span class="user-input" id="userInput"></span>
+                    <input
+                      type="text"
+                      id="dummyKeyboard"
+                      class="dummy-keyboard"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <footer class="footer">
-            <div class="content has-text-centered">
-                <p>
-                    Made with <i class="fas fa-heart icon"></i> by a Corgi Lover.
-                </p>
-            </div>
-        </footer>
+      </div>
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>Made with <i class="fas fa-heart icon"></i> by a Corgi Lover.</p>
+        </div>
+      </footer>
     </section>
-
-</body>
-<script src="./assets/app.js?v1.0.2"></script>
-
+  </body>
+  <script src="./assets/app.js?v1.0.3"></script>
 </html>
